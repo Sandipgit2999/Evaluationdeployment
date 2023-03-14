@@ -12,7 +12,7 @@ app.use(cors());
 app.use(express.json());
 
 app.use("/user", UserController);
-app.use(authorization);
+// app.use(authorization);
 app.use("/todos", TodosController);
 
 app.listen(PORT, async () => {
