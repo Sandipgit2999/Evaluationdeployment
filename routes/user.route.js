@@ -6,7 +6,7 @@ const bcrypt = require("bcrypt");
 const secret = process.env.SECRET_KEY;
 
 const { Router } = require("express");
-const { UserModel } = require("../models/user.model");
+const { UserModel } = require("../models/user.model.js");
 
 const UserController = Router();
 
