@@ -4,7 +4,6 @@ const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
 const { UserModel } = require("../models/user.model");
 
-
 const secret = process.env.SECRET_KEY;
 
 const { Router } = require("express");
