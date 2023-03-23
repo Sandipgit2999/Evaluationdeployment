@@ -1,6 +1,6 @@
 const { Router } = require("express");
 
-const { videoModel } = require("../models/videos.model");
+const { videoModel } = require("../Models/videos.model");
 
 const videoController = Router();
 
